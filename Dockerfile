@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM buildpack-deps:stretch-curl
+FROM buildpack-deps:stretch
 
 # Define working directory
 WORKDIR /root
